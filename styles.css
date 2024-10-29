@@ -2,11 +2,14 @@
     background-color: lightgray;
     color: #020b6b;
     font-family: 'Tahoma', 'Verdana', sans-serif;
+    box-sizing: border-box;
 }
 
 h1 {
     text-align: center;
     font-size: 32px;
+    margin: 24px auto;
+    width: 600px;
 }
 
 a:visited {
@@ -39,4 +42,30 @@ ol li {
 
 h3 {
     font-size: 20px;
+}
+
+.home-bullet{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: darkkhaki;
+    padding: 10px;
+    margin: 24px 16px;
+}
+
+.home-bullet a {
+    background-color: #bdb76b;
+}
+
+.home-list {
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    background-color: #807a3b;
+}
+
+.home-list ul {
+    margin: 0px;
+    padding: 1px;
+    background-color: #807a3b;
 }
